@@ -5,6 +5,7 @@ module.exports = defineConfig({
     devServer: {
       framework: "next",
       bundler: "webpack",
+      projectId: "49qa6y"
     },
   },
 
