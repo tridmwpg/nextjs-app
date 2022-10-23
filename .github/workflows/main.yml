@@ -11,6 +11,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v4.2.0
         with:
+          runTests: false
           spec: cypress/e2e/1-getting-started/todo.cy.js
           #record: true
           build: npm run build

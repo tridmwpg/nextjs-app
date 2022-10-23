@@ -7,10 +7,15 @@ jobs:
     # and Firefox v70 pre-installed
     container: cypress/browsers:node18.6.0-chrome105-ff104
     steps:
-      - uses: actions/checkout@v2
-      - uses: cypress-io/github-action@v4
+      - name: Checkout
+        uses: actions/checkout@v2
+      # Install NPM dependencies, cache them correctly
+      # and run all Cypress tests
+      - name: Cypress run
+        uses: cypress-io/github-action@v4.x.x
         with:
-          browser: chrome
+          # Specify Browser since container image is compile with Firefox
+          browser: firefox
           spec: cypress/e2e/1-getting-started/todo.cy.js
           #build: npm run build
           #start: npm start
