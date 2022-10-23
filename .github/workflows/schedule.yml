@@ -1,8 +1,8 @@
 name: run smoke test on a schedule
 on:
   schedule:
-    # runs tests every day at 4am
-    - cron: '0 17 23 10 *'
+    # runs tests every day at 5pm (~1:30pm)
+    - cron: '0 17 * * *'
     
 jobs:
   nightly:
