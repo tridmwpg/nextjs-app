@@ -16,8 +16,8 @@ jobs:
         with:
           # Specify Browser since container image is compile with Firefox
           browser: firefox
-          spec: cypress/e2e/1-getting-started/todo.cy.js
-          build: yarn run build
-          start: yarn start
+          #spec: cypress/e2e/1-getting-started/todo.cy.js
+          #build: yarn run build
+          #start: yarn start
           # quote the url to be safe against YML parsing surprises
-          wait-on: 'http://localhost:3000'
+          #wait-on: 'http://localhost:3000'
