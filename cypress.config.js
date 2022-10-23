@@ -4,8 +4,7 @@ module.exports = defineConfig({
   component: {
     devServer: {
       framework: "next",
-      bundler: "webpack",
-      projectId: "49qa6y"
+      bundler: "webpack"
     },
   },
 
@@ -14,4 +13,6 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
   },
+
+  projectId: "49qa6y"
 });
