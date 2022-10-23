@@ -1,6 +1,6 @@
 name: Commit tests
 
-on: [pul]
+on: [push]
 
 jobs:
   cypress-run:
