@@ -1,4 +1,4 @@
-name: Commit's tests
+name: Commit tests
 
 on: [pul]
 
