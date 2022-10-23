@@ -1,3 +1,6 @@
+# add default status badge
+[![Cypress Tests](https://github.com/tridmwpg/nextjs-app/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/tridmwpg/nextjs-app/actions/workflows/ci.yml)
+
 # Example app using nested components
 
 Taking advantage of the composable nature of React components we can modularize our apps in self-contained, meaningful components. This example has a page under `pages/index.js` that uses `components/paragraph.js` and `components/post.js` that can be styled and managed separately.
