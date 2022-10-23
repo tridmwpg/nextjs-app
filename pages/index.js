@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="main">
       <Post title="My first blog post">
-        <P>Hello there-cypress test</P>
+        <P>Hello there</P>
         <P>This is an example of a componentized blog post</P>
       </Post>
 
