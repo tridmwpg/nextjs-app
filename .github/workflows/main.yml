@@ -12,7 +12,7 @@ jobs:
         uses: cypress-io/github-action@v4.2.0
         with:
           spec: cypress/e2e/1-getting-started/todo.cy.js
-          record: true
+          #record: true
           build: npm run build
           start: npm start
           # quote the url to be safe against YML parsing surprises

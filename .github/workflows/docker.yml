@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     # Cypress Docker image with Chrome v78
     # and Firefox v70 pre-installed
-    container: cypress/browsers:node12.13.0-chrome78-ff70
+    container: cypress/browsers:node18.6.0-chrome105-ff104
     steps:
       - uses: actions/checkout@v2
       - uses: cypress-io/github-action@v4
